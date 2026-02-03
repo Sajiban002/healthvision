@@ -1,0 +1,59 @@
+name: mobile_app
+description: "HealthVision - мобильное приложение для мониторинга здоровья"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8 
+
+  firebase_core: ^3.1.0
+  cloud_firestore: ^5.0.1
+  firebase_auth: ^5.1.0
+  firebase_messaging: ^15.0.1
+
+  health: ^13.2.1
+  pedometer: ^4.0.2
+  pdf: ^3.10.7              
+  path_provider: ^2.1.1     
+  open_file: ^3.3.2     
+
+  provider: ^6.1.2
+
+  fl_chart: ^0.68.0 
+  syncfusion_flutter_charts: ^26.1.35 
+  http: ^1.2.0
+
+  lottie: ^3.1.2
+
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0 
+
+  table_calendar: ^3.1.1
+  google_generative_ai: ^0.4.3
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0 
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - .env
+    - assets/fonts/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
