@@ -42,6 +42,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.8 
+  fake_cloud_firestore: ^3.0.3
 
   flutter_lints: ^4.0.0 
 
